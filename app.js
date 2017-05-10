@@ -61,13 +61,13 @@ console.log('choice drink:' + drink);
 if (drink === 'Y' || drink === 'YES') {
   alert('Only when I\'m not sleeping');
 } else {
-  alert('How are you alive?!');
+  alert('How are you alive if you don\'t?!');
 }
 var game = prompt("How would you rate this game? (Bad? Okay? Awesome?)").toUpperCase();
 console.log('answer game:' + game);
 
  while (game != 'AWESOME') {
-   prompt('Try again!');
+   alert('Try again!');
    var game = prompt("How would you rate this game? (Bad? Okay? Awesome?)").toUpperCase();
  }
  alert('Correct!')
