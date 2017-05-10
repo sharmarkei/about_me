@@ -25,7 +25,7 @@ console.log('own house:' + house);
 if (house === 'Y' || house === 'YES') {
   alert('I wish! Still at momma\'s house.');
 } else if (house === 'N' || house === 'NO') {
-  alert('Hopefully after I get a job with what I learned at CF!');
+  alert('Hopefully after landing a job with what I learn at CF!');
 }
 var height = prompt('Am I taller than 6 feet?').toUpperCase();
 console.log('my height:' + height);
