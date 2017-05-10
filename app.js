@@ -1,14 +1,17 @@
 'use strict'
 
+// Start
 alert('Hello! Let\'s play a little game!');
 
+// Get Player's Name
 var user = prompt('First things first, What\'s you\'re name?');
 console.log('user name:' + user);
 
 alert('Thanks ' + user + ' ! Let\'s get started!');
 
+// First Question
 var shoe = prompt('What is my favorite shoe brand?(Vans/Nike/Asics?)').toUpperCase();
-console.log("questionOne shoes:" + shoe);
+console.log('questionOne shoes:' + shoe);
 
 if (shoe === 'VANS') {
   alert('Nope! You\'re wrong.');
@@ -19,6 +22,8 @@ if (shoe === 'VANS') {
 } else {
   alert('What are those?');
 }
+
+// Second Question
 var house = prompt('Do I have my own place?').toUpperCase();
 console.log('own house:' + house);
 
@@ -27,6 +32,8 @@ if (house === 'Y' || house === 'YES') {
 } else if (house === 'N' || house === 'NO') {
   alert('Hopefully after landing a job with what I learn at CF!');
 }
+
+// Third Question
 var height = prompt('Am I taller than 6 feet?').toUpperCase();
 console.log('my height:' + height);
 
@@ -37,15 +44,18 @@ if (height === 'Y' || height === 'YES') {
 } else {
   alert('Dude, only answer Y/N')
 }
+
+// Fourth Question
 var computer = prompt('Do I use a Mac computer?').toUpperCase();
 console.log('type computer:' + computer);
 
 if(computer === 'Y' || computer === 'YES'){
   alert('Apple squad!')
 } else{
-  alert('PC\'s are etinct.')
+  alert('PC\'s are extinct.')
 }
 
+// Fifth Question
 var workout = prompt('Do I workout?').toUpperCase();
 console.log('my workout:' + workout);
 
@@ -55,6 +65,7 @@ if(workout === 'Y' || workout === 'YES') {
   alert('Yea, I like that sedentary lifestyle.');
 }
 
+// Sixth Question
 var drink = prompt('Do I drink water?').toUpperCase();
 console.log('choice drink:' + drink);
 
@@ -63,11 +74,13 @@ if (drink === 'Y' || drink === 'YES') {
 } else {
   alert('How are you alive if you don\'t?!');
 }
+
+// Seventh Question
 var game = prompt("How would you rate this game? (Bad? Okay? Awesome?)").toUpperCase();
 console.log('answer game:' + game);
 
- while (game != 'AWESOME') {
-   alert('Try again!');
-   var game = prompt("How would you rate this game? (Bad? Okay? Awesome?)").toUpperCase();
- }
- alert('Correct!')
+while (game != 'AWESOME') {
+ alert('Try again!');
+ var game = prompt("How would you rate this game? (Bad? Okay? Awesome?)").toUpperCase();
+}
+alert('Correct!')
