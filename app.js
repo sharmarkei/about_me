@@ -71,35 +71,3 @@ console.log('answer sumTing:' + sumTing);
    var sumTing = prompt("choice one of these(hi, hello, hey)").toUpperCase();
  }
  alert('Correct!')
-
-// if(questionOne === 'Vans'){
-//   alert('No, guess again!')
-// }
-
-
-// alert('Hey! Let\'s play a game.')
-//
-// var user = prompt('What\'s your name?');
-// console.log('user\'s name:' + user);
-//
-// alert('Alright ' + user + ', let\'s get started with the game!');
-//
-// var questionOne = prompt('Are you a female?').toUpperCase();
-// console.log('users sex:' + questionOne);
-//
-// if (questionOne === 'Y' || 'YES') {
-//   alert('Girl\'s rule!')
-// } else if (questionOne === 'N' || 'NO') {
-//   alert('Boy\'s drool!')
-// } else {
-//   alert('whats that')
-// }
-//
-// var questionTwo = prompt('How many kids do I have?').toUpperCase();
-// console.log('questionTwo answer:' + questionTwo)
-//
-// if (questionTwo => 1) {
-//   alert('Yeee, I dont')
-// } else{
-//   alert("YEAH RIGHT! I can barely take care of myself")
-// }
