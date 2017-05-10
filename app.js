@@ -7,7 +7,7 @@ console.log('user name:' + user);
 
 alert('Thanks ' + user + ' ! Let\'s get started!');
 
-var shoe = prompt('What are my favorite shoe brand?(Vans/Nike/Asics?)').toUpperCase();
+var shoe = prompt('What is my favorite shoe brand?(Vans/Nike/Asics?)').toUpperCase();
 console.log("questionOne shoes:" + shoe);
 
 if (shoe === 'VANS') {
